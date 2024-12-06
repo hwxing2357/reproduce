@@ -133,7 +133,7 @@ def main(args=None):
     model = get_model(args, np_head, backbone, loss, dataset.get_transform())
     # pytorch_total_params = sum(p.numel() for p in model.net.parameters())
     args.lr = 1e-2
-    args.n_epochs = 10
+    args.n_epochs = 50
     args.batch_size = 128
     args.minibatch_size = 128
 

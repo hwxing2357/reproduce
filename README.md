@@ -1,5 +1,6 @@
 Reproducing parts of results from NPCL: Neural Processes for Uncertainty-Aware Continual Learning (Jha et al. 2024)
-Codes are forked from https://github.com/srvCodes/NPCL
+
+This repo is forked from https://github.com/srvCodes/NPCL
 
 To install dependencies, run
 ```

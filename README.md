@@ -12,7 +12,7 @@ To run the S-Tiny-ImageNet example given in the original repo, run the command l
 ```
 python utils/main.py --model er --visualize-latent --kl-t 0.1 --kl-g 0.1  --dataset seq-tinyimagenet --load_best_args --seed 1  --buffer_size 200 --use_context --num_labels 5 --np_type npcl --forward_times_train 15 --forward_times_test 15 --kl-g 0.1 --kl-t 0.1
 ```
-taken directly from from [https://github.com/hwxing2357/NPCL_reproducing/blob/main/runner.sh](https://github.com/hwxing2357/NPCL_reproducing/blob/main/runner.sh).
+taken directly from from [https://github.com/srvCodes/NPCL/blob/main/runner.sh](https://github.com/srvCodes/NPCL/blob/main/runner.sh).
 
 To test S-Tiny-ImageNet dataset under the recommended settings given by the original paper, modify the command line 
 ```

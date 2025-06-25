@@ -13,5 +13,5 @@ python utils/main.py --model er --visualize-latent --dataset seq-cifar100 --load
 
 To run NPCL on S-Tiny-ImageNet dataset under the recommended settings given by the original paper, run command line in _runner.sh_
 ```
-python utils/main.py --model er --visualize-latent --dataset seq_tinyimagenet --load_best_args --seed 1  --buffer_size 500 --use_context --num_labels 5 --np_type npcl --forward_times_train 15 --forward_times_test 15 --kl-g 0.01 --kl-t 0.01 --kd-tr 0.1 --kd-gr 0.05 --context-batch-factor 0.125
+python utils/main.py --model er --visualize-latent --dataset seq-tinyimagenet --load_best_args --seed 1  --buffer_size 500 --use_context --num_labels 5 --np_type npcl --forward_times_train 15 --forward_times_test 15 --kl-g 0.01 --kl-t 0.01 --kd-tr 0.1 --kd-gr 0.05 --context-batch-factor 0.125
 ```
